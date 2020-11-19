@@ -1,0 +1,11 @@
+// Una función recursiva es simplemente una función, que se llama a sí misma.
+
+function factorial (n) {
+    if (n <= 1) {
+        return 1;
+    }
+    
+    return n * factorial (n - 1);
+}
+
+// La función anterior muestra un ejemplo básico de cómo realizar una función recursiva para devolver un factorial.
